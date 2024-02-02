@@ -1,0 +1,8 @@
+RNNs remembers the previous information and use it for processing the current input. The shortcoming of RNN is they cannot remember long-term dependencies due to vanishing gradient. LSTMs are explicitly designed to avoid long-term dependency problems.
+
+Vanishing Gradient Descent
+The problem:
+As more layers using certain activation functions are added to neural networks, the gradients of the loss function approaches zero, making the network hard to train.
+
+What is LSTM?
+It excels at capturing long-term dependencies, making it ideal for sequence prediction tasks.
