@@ -1,0 +1,3 @@
+Data Augmentation is a technique used to supplement images dataset. 
+
+Image data augmentation is a technique that creates new images from existing ones. To do that, you make some small changes to them, such as adjusting the brightness of the image, or rotating the image, or shifting the subject in the image horizontally or vertically.

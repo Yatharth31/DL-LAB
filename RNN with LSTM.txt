@@ -5,4 +5,9 @@ The problem:
 As more layers using certain activation functions are added to neural networks, the gradients of the loss function approaches zero, making the network hard to train.
 
 What is LSTM?
-It excels at capturing long-term dependencies, making it ideal for sequence prediction tasks.
+It excels at capturing long-term dependencies, making it ideal for sequence prediction tasks. LSTM incorporates feedback connections, allowing it to process entire sequences of data, not just individual data points. This makes it highly effective in understanding and predicting patterns in sequential data like time series, text, and speech.
+
+The Logic Behind LSTM
+The first part chooses whether the information coming from the previous timestamp is to be remembered or is irrelevant and can be forgotten. In the second part, the cell tries to learn new information from the input to this cell. At last, in the third part, the cell passes the updated information from the current timestamp to the next timestamp. This one cycle of LSTM is considered a single-time step.
+The first gate is called Forget gate, the second gate is known as the Input gate, and the last one is the Output gate.
+the hidden state is known as Short term memory, and the cell state is known as Long term memory.
