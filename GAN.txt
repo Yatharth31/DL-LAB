@@ -1,0 +1,22 @@
+GAN pits two model together hence, advesarial.
+Generative Advesarial Network.
+
+GAN is an example of unsupervised learning. It consist of two sub model 
+1. Generator
+Create fake samples. 
+Generator take and loops over many samples to create images, so that it can fool a discriminator or a human. 
+
+2. Discriminator
+Take a given sample and figure out if its real or fake.
+
+
+Example : 
+
+Loser has to update their model. 
+Generator and discriminator are implemented as CNN. 
+
+Real usage is : Figuring out next frames in a video, Image enhancement.
+
+
+Minimise 2 losses -> 2 optimizer
+Uses Binary cross entropy loss

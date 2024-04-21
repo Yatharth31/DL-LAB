@@ -1,3 +1,19 @@
+As the amount of data increases the performance of the deep learning model also improves.
+
 Data Augmentation is a technique used to supplement images dataset. 
 
 Image data augmentation is a technique that creates new images from existing ones. To do that, you make some small changes to them, such as adjusting the brightness of the image, or rotating the image, or shifting the subject in the image horizontally or vertically.
+
+Aritificially increase size of training dataset.
+
+Types of Image augmentation	Keras ImageDataGenerator
+Vertical shift			
+Horizontal shift 	ImageDataGenerator(width_shift_range=0.2, height_shift_range=0.2)
+Vertical flip		ImageDataGenerator(horizontal_flip=True, vertical_flip=True)
+Horizontal flip
+Image Noising
+Image Blurring
+Rotation			ImageDataGenerator(rotation_range=30, fill_mode='nearest')
+Brightness adjustment		ImageDataGenerator(brightness_range=[0.4,1.5])
+Zoom In/Out.			ImageDataGenerator(zoom_range=0.3)
+
